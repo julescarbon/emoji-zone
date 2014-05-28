@@ -1,0 +1,26 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.mx-object3d { -webkit-transform-style: preserve-3d; transform-style: preserve-3d; }
+html,body{ margin: 0; padding: 0; width:100%;height:100%;}
+body {
+	-webkit-perspective: 600px;
+	-moz-perspective: 600px;
+	perspective: 1000px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	overflow:hidden;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	cursor:none;
+	font-family:sans-serif;
+	background-color: white;
+}
+.text {
+  font-size: 100px;
+  color: white;
+}
